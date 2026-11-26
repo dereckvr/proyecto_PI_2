@@ -65,11 +65,11 @@ elementos={0:[["#87CEEB","#87CEEB","#87CEEB","#87CEEB","#87CEEB","#87CEEB","#87C
 
 
            6:[["#87CEEB","#87CEEB","#87CEEB","#87CEEB","#87CEEB","#87CEEB","#87CEEB"], #Semilla
-              ["#87CEEB","#87CEEB","#87CEEB","#87CEEB","#87CEEB","#87CEEB","#87CEEB"],
-              ["#87CEEB","#87CEEB","#87CEEB","#87CEEB","#87CEEB","#87CEEB","#87CEEB"],
-              ["#87CEEB","#87CEEB","#87CEEB","#5C3A21","#87CEEB","#87CEEB","#87CEEB"],
-              ["#87CEEB","#87CEEB","#5C3A21","#D2B48C","#5C3A21","#87CEEB","#87CEEB"],
-              ["#87CEEB","#87CEEB","#87CEEB","#A67B5B","#87CEEB","#87CEEB","#87CEEB"],
+              ["#87CEEB","#87CEEB","#87CEEB","#87CEEB","#87CEEB","#277B22","#87CEEB"],
+              ["#87CEEB","#87CEEB","#5C3A21","#A67B5B","#277B22","#87CEEB","#87CEEB"],
+              ["#87CEEB","#5C3A21","#5C3A21","#A67B5B","#A67B5B","#87CEEB","#87CEEB"],
+              ["#87CEEB","#5C3A21","#5C3A21","#5C3A21","#5C3A21","#87CEEB","#87CEEB"],
+              ["#87CEEB","#87CEEB","#5C3A21","#5C3A21","#87CEEB","#87CEEB","#87CEEB"],
               ["#87CEEB","#87CEEB","#87CEEB","#87CEEB","#87CEEB","#87CEEB","#87CEEB"]],
 
 
@@ -95,17 +95,17 @@ elementos={0:[["#87CEEB","#87CEEB","#87CEEB","#87CEEB","#87CEEB","#87CEEB","#87C
               ["#87CEEB","#87CEEB","#7CBD42","#4C9A2A","#7CBD42","#87CEEB","#87CEEB"],
               ["#87CEEB","#4C9A2A","#7CBD42","#2D5A1E","#7CBD42","#4C9A2A","#87CEEB"],
               ["#87CEEB","#87CEEB","#87CEEB","#2D5A1E","#87CEEB","#87CEEB","#87CEEB"],
-              ["#87CEEB","#4C9A2A","#7CBD42","#2D5A1E","#7CBD42","#4C9A2A","#87CEEB"],
+              ["#87CEEB","#87CEEB","#87CEEB","#2D5A1E","#87CEEB","#87CEEB","#87CEEB"],
               ["#87CEEB","#87CEEB","#4C9A2A","#2D5A1E","#4C9A2A","#87CEEB","#87CEEB"],
               ["#87CEEB","#87CEEB","#87CEEB","#2D5A1E","#87CEEB","#87CEEB","#87CEEB"]],
 
 
            10:[["#87CEEB","#87CEEB","#7CBD42","#7CBD42","#7CBD42","#87CEEB","#87CEEB"], #Planta fase 3
-               ["#87CEEB","#7CBD42","#4C9A2A","#7CBD42","#000000","#7CBD42","#87CEEB"],
+               ["#87CEEB","#7CBD42","#4C9A2A","#7CBD42","#7CBD42","#7CBD42","#87CEEB"],
                ["#7CBD42","#4C9A2A","#7CBD42","#4C9A2A","#7CBD42","#4C9A2A","#7CBD42"],
                ["#4C9A2A","#7CBD42","#4C9A2A","#2D5A1E","#4C9A2A","#7CBD42","#4C9A2A"],
                ["#4C9A2A","#4C9A2A","#2D5A1E","#6E4E35","#2D5A1E","#4C9A2A","#4C9A2A"],
-               ["#2D5A1E","#C9A2A","#4C9A2A","#6E4E35","#4C9A2A","#4C9A2A","#2D5A1E"],
+               ["#2D5A1E","#4C9A2A","#4C9A2A","#6E4E35","#4C9A2A","#4C9A2A","#2D5A1E"],
                ["#87CEEB","#2D5A1E","#2D5A1E","#6E4E35","#2D5A1E","#2D5A1E","#87CEEB"],
                ["#87CEEB","#87CEEB","#87CEEB","#6E4E35","#87CEEB","#87CEEB","#87CEEB"],
                ["#87CEEB","#87CEEB","#87CEEB","#4A3321","#87CEEB","#87CEEB","#87CEEB"],
@@ -116,13 +116,13 @@ elementos={0:[["#87CEEB","#87CEEB","#87CEEB","#87CEEB","#87CEEB","#87CEEB","#87C
                ["#87CEEB","#87CEEB","#4A3321","#6E4E35","#4A3321","#87CEEB","#87CEEB"]],
 
 
-           11:[["#87CEEB","#87CEEB","#87CEEB","#87CEEB","#FFFFFF","#FFFFFF","#FFFFFF","#FFFFFF","#FFFFFF","#FFFFFF","#87CEEB","#87CEEB","#87CEEB","#87CEEB"], #Animal
-               ["#87CEEB","#87CEEB","#FFFFFF","#FFFFFF","#FFFFFF","#D9D9D9","#FFFFFF","#FFFFFF","#D9D9D9","#FFFFFF","#FFFFFF","#FFFFFF","#87CEEB","#87CEEB"],
-               ["#87CEEB","#FFFFFF","#E5B89B","#E5B89B","#FFFFFF","#FFFFFF","#FFFFFF","#FFFFFF","#FFFFFF","#FFFFFF","#FFFFFF","#FFFFFF","#D9D9D9","#87CEEB"],
-               ["#87CEEB","#E5B89B","#2B2B2B","#E5B89B","#FFFFFF","#D9D9D9","#FFFFFF","#FFFFFF","#D9D9D9","#FFFFFF","#FFFFFF","#D9D9D9","#87CEEB","#87CEEB"],
-               ["#87CEEB","#87CEEB","#E5B89B","#E5B89B","#D9D9D9","#FFFFFF","#FFFFFF","#D9D9D9","#FFFFFF","#FFFFFF","#D9D9D9","#87CEEB","#87CEEB","#87CEEB"],
-               ["#87CEEB","#87CEEB","#87CEEB","#87CEEB","#5C4033","#5C4033","#87CEEB","#87CEEB","#87CEEB","#5C4033","#5C4033","#87CEEB","#87CEEB","#87CEEB"],
-               ["#87CEEB","#87CEEB","#87CEEB","#87CEEB","#5C4033","#5C4033","#87CEEB","#87CEEB","#87CEEB","#5C4033","#5C4033","#87CEEB","#87CEEB","#87CEEB"]]}
+           11:[["#87CEEB","#87CEEB","#87CEEB","#87CEEB","#87CEEB","#F898BC","#F898BC","#F898BC","#F898BC","#F898BC","#87CEEB","#87CEEB","#87CEEB","#87CEEB"],
+               ["#87CEEB","#87CEEB","#87CEEB","#87CEEB","#87CEEB","#F898BC","#000000","#F898BC","#F898BC","#000000","#87CEEB","#87CEEB","#87CEEB","#87CEEB"],
+               ["#87CEEB","#87CEEB","#F06A9C","#F06A9C","#F06A9C","#F898BC","#000000","#F898BC","#F898BC","#000000","#87CEEB","#87CEEB","#87CEEB","#87CEEB"],
+               ["#87CEEB","#87CEEB","#F06A9C","#F06A9C","#F06A9C","#F898BC","#F898BC","#F898BC","#EB1C5C","#F898BC","#87CEEB","#87CEEB","#87CEEB","#87CEEB"],
+               ["#87CEEB","#87CEEB","#F06A9C","#F06A9C","#F06A9C","#F485AF","#F898BC","#F898BC","#F485AF","#87CEEB","#87CEEB","#87CEEB","#87CEEB","#87CEEB"],
+               ["#87CEEB","#87CEEB","#F06A9C","#87CEEB","#87CEEB","#F485AF","#87CEEB","#87CEEB","#F485AF","#87CEEB","#87CEEB","#87CEEB","#87CEEB","#87CEEB"],
+               ["#87CEEB","#87CEEB","#F06A9C","#87CEEB","#87CEEB","#F485AF","#87CEEB","#87CEEB","#F485AF","#87CEEB","#87CEEB","#87CEEB","#87CEEB","#87CEEB"]]}
 
 class Sandbox:
     def __init__(self):
@@ -132,37 +132,44 @@ class Sandbox:
         self.root.resizable(False,False)
 
         #Se crea el canvas principal y se dibuja la cuadricula en la que dibujará el usuario
+        #Se crea subcuadricula de 7x7 en cada bloque de la cuadricula principal, para poder dibujar los elementos
         self.canvas=tkinter.Canvas(self.root,width=700,height=700)
-        for i in range(cua_tam):
+        for fila in range(cua_tam):
             matriz_bas.append([])
             sub_matrices.append([])
-            for j in range(cua_tam):
-                self.canvas.create_rectangle(i*PIX_TAM,j*PIX_TAM,(i+1)*PIX_TAM,(j+1)*PIX_TAM,fill="#87CEEB",outline="")
-                matriz_bas[i].append(0)
-                sub_matrices[i].append([])
-
-        #se crea la subcuadricula para cada pixel de la cuadricula principal, para la representación de los elementos
-        for i in range(len(matriz_bas)):
-            for j in range(len(matriz_bas[0])):
-                for k in range(7):
-                    sub_matrices[i][j].append([])
-                    for l in range(7):
-                        sub_matrices[i][j][k].append(self.canvas.create_rectangle(i*PIX_TAM+l*SUB_PIX_TAM,j*PIX_TAM+k*SUB_PIX_TAM,i*PIX_TAM+(l+1)*SUB_PIX_TAM,j*PIX_TAM+(k+1)*SUB_PIX_TAM,fill="#87CEEB",outline=""))
+            for colum in range(cua_tam):
+                self.canvas.create_rectangle(colum*PIX_TAM,fila*PIX_TAM,(colum+1)*PIX_TAM,(fila+1)*PIX_TAM,fill="",outline="")
+                matriz_bas[fila].append(0)
+                sub_matrices[fila].append([])
+                for sub_fila in range(7):
+                    sub_matrices[fila][colum].append([])
+                    for sub_colum in range(7):
+                        x1=colum*PIX_TAM+sub_colum*SUB_PIX_TAM
+                        y1=fila*PIX_TAM+sub_fila*SUB_PIX_TAM
+                        x2=colum*PIX_TAM+(sub_colum+1)*SUB_PIX_TAM
+                        y2=fila*PIX_TAM+(sub_fila+1)*SUB_PIX_TAM
+                        sub_matrices[fila][colum][sub_fila].append(self.canvas.create_rectangle(x1,y1,x2,y2,fill="#87CEEB",outline=""))
 
         self.canvas.pack()
 
-    def cambiar_bloque(self,x,y,elemento):
+    def cambiar_bloque(self,fila,colum,elemento):
         #Función que cambia el bloque de la cuadricula principal y la subcuadricula
-        matriz_bas[x][y]=elemento
+        matriz_bas[fila][colum]=elemento
 
         if elemento==10:
-            pass
+            for sub_fila in range(7):
+                for sub_colum in range(7):
+                    self.canvas.itemconfig(sub_matrices[fila-1][colum][sub_fila][sub_colum],fill=elementos[elemento][sub_fila][sub_colum])
+                    self.canvas.itemconfig(sub_matrices[fila][colum][sub_fila][sub_colum],fill=elementos[elemento][sub_fila+7][sub_colum])
         elif elemento==11:
-            pass
+            for sub_fila in range(7):
+                for sub_colum in range(7):
+                    self.canvas.itemconfig(sub_matrices[fila][colum][sub_fila][sub_colum],fill=elementos[elemento][sub_fila][sub_colum])
+                    self.canvas.itemconfig(sub_matrices[fila][colum+1][sub_fila][sub_colum],fill=elementos[elemento][sub_fila][sub_colum+7])
         else:
-            for i in range(7):
-                for j in range(7):
-                    self.canvas.itemconfig(sub_matrices[x][y][i][j],fill=elementos[elemento][i][j])
+            for sub_fila in range(7):
+                for sub_colum in range(7):
+                    self.canvas.itemconfig(sub_matrices[fila][colum][sub_fila][sub_colum],fill=elementos[elemento][sub_fila][sub_colum])
 
 
 
@@ -170,4 +177,6 @@ class Sandbox:
 
 if __name__=="__main__":
     sandbox=Sandbox()
+    sandbox.cambiar_bloque(1,1,10)
+
     sandbox.root.mainloop()
