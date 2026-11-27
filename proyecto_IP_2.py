@@ -130,19 +130,31 @@ class Sandbox:
         self.root.title("Chafaria")
         self.root.geometry("750x750")
         self.root.resizable(False,False)
-
-        #Se crea el canvas principal y se dibuja la cuadricula en la que dibujará el usuario
-        #Se crea subcuadricula de 7x7 en cada bloque de la cuadricula principal, para poder dibujar los elementos
         self.canvas=tkinter.Canvas(self.root,width=700,height=700)
+        self.elemen_selec=tkinter.IntVar(value=0)
+        self.arras_cam=tkinter.BooleanVar(value=False)
+        self.zoom=1.0
+        self.zoom_min=1.0
+        self.zoom_max=4.0
+        self.fuera_x=0.0
+        self.fuera_y=0.0
+        self.ult_x=0
+        self.ult_y
+
+        #Se dibuja la cuadricula en la que dibujará el usuario
         for fila in range(cua_tam):
             matriz_bas.append([])
             sub_matrices.append([])
+
             for colum in range(cua_tam):
                 self.canvas.create_rectangle(colum*PIX_TAM,fila*PIX_TAM,(colum+1)*PIX_TAM,(fila+1)*PIX_TAM,fill="",outline="")
                 matriz_bas[fila].append(0)
                 sub_matrices[fila].append([])
+
+                #Se crea subcuadricula de 7x7 en cada bloque de la cuadricula principal, para poder dibujar los elementos
                 for sub_fila in range(7):
                     sub_matrices[fila][colum].append([])
+
                     for sub_colum in range(7):
                         x1=colum*PIX_TAM+sub_colum*SUB_PIX_TAM
                         y1=fila*PIX_TAM+sub_fila*SUB_PIX_TAM
@@ -150,18 +162,29 @@ class Sandbox:
                         y2=fila*PIX_TAM+(sub_fila+1)*SUB_PIX_TAM
                         sub_matrices[fila][colum][sub_fila].append(self.canvas.create_rectangle(x1,y1,x2,y2,fill="#87CEEB",outline=""))
 
+        #S
+
+        #se detecta los clicks del mouse para dibujar en la cuadricula
+        self.canvas.bind("<Button-1>",self.dibujar)
+        self.canvas.bind("<B1-Motion>",self.dibujar)
+        self.canvas.bind("<Button-3>",lambda event:(self.arras_cam.set(True),self.canvas.scan_mark(event.x,event.y)))
+        self.canvas.bind("<B3-Motion>",self.mover)
+        self.canvas.bind("<ButtonRelease-3>",lambda event:self.arras_cam.set(False))
+        self.canvas.bind("<MouseWheel>",lambda event:self.rueda)
+
         self.canvas.pack()
+
 
     def cambiar_bloque(self,fila,colum,elemento):
         #Función que cambia el bloque de la cuadricula principal y la subcuadricula
         matriz_bas[fila][colum]=elemento
 
-        if elemento==10:
+        if elemento==10 and fila>0:
             for sub_fila in range(7):
                 for sub_colum in range(7):
                     self.canvas.itemconfig(sub_matrices[fila-1][colum][sub_fila][sub_colum],fill=elementos[elemento][sub_fila][sub_colum])
                     self.canvas.itemconfig(sub_matrices[fila][colum][sub_fila][sub_colum],fill=elementos[elemento][sub_fila+7][sub_colum])
-        elif elemento==11:
+        elif elemento==11 and colum<cua_tam-1:
             for sub_fila in range(7):
                 for sub_colum in range(7):
                     self.canvas.itemconfig(sub_matrices[fila][colum][sub_fila][sub_colum],fill=elementos[elemento][sub_fila][sub_colum])
@@ -171,12 +194,26 @@ class Sandbox:
                 for sub_colum in range(7):
                     self.canvas.itemconfig(sub_matrices[fila][colum][sub_fila][sub_colum],fill=elementos[elemento][sub_fila][sub_colum])
 
+    def dibujar(self,event):
+        if event.x>700 or event.y>700 or event.x<0 or event.y<0:
+            return
+
+        tam_bloque=PIX_TAM*self.zoom
+
+        fila=int(event.y-self.fuera_y//PIX_TAM)
+        colum=int(event.x-self.fuera_x//PIX_TAM)
+
+        if 0 <= fila < cua_tam and 0 <= colum < cua_tam:
+            self.cambiar_bloque(fila,colum,self.elemen_selec.get())
+
+    def mover(self,event):
+        if not self.arras_cam.get():
+            return
+        self.canvas.scan_dragto(event.x,event.y,gain=1)
 
 
-        
 
 if __name__=="__main__":
     sandbox=Sandbox()
     sandbox.cambiar_bloque(1,1,10)
-
     sandbox.root.mainloop()
